@@ -1,6 +1,50 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Привет мир!");
-        System.out.println("Hello world!");
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        dog = dog * 4;
+        cat = cat *4;
+        paper = paper * 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        dog = dog / 3.5;
+        cat = cat / 1.6;
+        paper = paper / 7639;
+        System.out.println("dog " + dog);
+        System.out.println("cat " + cat);
+        System.out.println("paper " + paper);
+        var friend = 19;
+        friend = friend * 2;
+        System.out.println("friend " + friend);
+        friend = friend / 7;
+        System.out.println("friend " + friend);
+        var frog = 3.5;
+        System.out.println("frog1 " + frog);
+        frog = frog * 10;
+        System.out.println("frog2 " + frog);
+        frog = frog / 3.5;
+        System.out.println("frog3 " + frog);
+        frog = frog + 4;
+        System.out.println("frog4 " + frog);
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var result1 = firstBoxer + secondBoxer;
+        System.out.println( "Масса обоих бойцов " + result1 + " кг");
+        var result2 = secondBoxer - firstBoxer;
+        System.out.println("Разница в весе обоих бойцов " + result2 + " кг");
+        var result3 = secondBoxer % firstBoxer;
+        System.out.println("Разница в весе обоих бойцов " + result3 + " кг");
+        var businessHours = 640;
+        var workingHours = 8;
+        var users = businessHours / workingHours;
+        System.out.println("Всего работников в компании - " + users + " человек");
+        users = users + 94;
+        businessHours = users * workingHours;
+        System.out.println("Если в компании работает " + users + " человек, то всего " + businessHours + " часа работы может быть поделено между сотрудниками");
     }
 }
